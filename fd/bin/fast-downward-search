@@ -16,6 +16,6 @@ function get_basedir {
 }
 
 BASEDIR=$(get_basedir)
-SEARCH="$BASEDIR/../search/downward-release"
+SEARCH="$BASEDIR/../share/downward-release"
 
 $SEARCH "$@"

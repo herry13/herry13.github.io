@@ -27,9 +27,9 @@ function usage {
 }
 
 # Paths to planner components
-TRANSLATE="$BASEDIR/../translate/translate.py"
-PREPROCESS="$BASEDIR/../preprocess/preprocess"
-SEARCH="$BASEDIR/../search/downward"
+TRANSLATE="$BASEDIR/../share/translate/translate.py"
+PREPROCESS="$BASEDIR/../share/preprocess"
+SEARCH="$BASEDIR/../share/downward"
 
 TIME="command time -p"
 

@@ -16,6 +16,6 @@ function get_basedir {
 }
 
 BASEDIR=$(get_basedir)
-PREPROCESS="$BASEDIR/../preprocess/preprocess"
+PREPROCESS="$BASEDIR/../share/preprocess"
 
 $PREPROCESS "$@"
