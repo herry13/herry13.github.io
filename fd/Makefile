@@ -5,8 +5,8 @@ build:
 	@cd search && make && cd ..
 
 clean:
-	@cd preprocess && make distclean && rm Makefile.temp* && cd ..
-	@cd search && make distclean && rm Makefile.temp* && cd ..
+	@cd preprocess && make distclean && rm -f Makefile.temp* && cd ..
+	@cd search && make distclean && rm -f Makefile.temp* && cd ..
 
 install:
 	@mkdir -p $(PREFIX)/{bin,search,preprocess,translate}
