@@ -1,0 +1,122 @@
+body {
+	color: #111111;
+	background-color: #ADD6C2;
+	font-family: verdana, sans-serif;
+	font-size: 13px;
+	text-align: left;
+	line-height: 140%;
+	margin: 0px;
+}
+
+.site {
+  background-color: #FFF;
+  padding: 10px;
+  box-shadow: 6px 6px #AAA;
+}
+
+a:link {
+	color: #333300;
+	text-decoration: underline;
+}
+a:visited {
+	color: #333300;
+	text-decoration: underline;
+}
+a:active {
+	color: #333300;
+	text-decoration: none;
+}
+a:hover {
+	color: #333300;
+	text-decoration: none;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+h1 {
+	font-size: 22px;
+	margin-left: 0px;
+  color: #166916;
+  font-weight: normal;
+}
+h2 {
+	font-size: 18px;
+	margin-left: 0px;
+  color: #166916;
+  font-weight: normal;
+}
+h3 {
+	font-size: 16px;
+	margin-left: 0px;
+  color: #166916;
+  font-weight: normal;
+}
+i {
+	color: #333300;
+	font-size: 13px;
+}
+b {
+  color: #166916;
+	font-size: 13px;
+}
+
+.title {
+  font-weight: bold;
+  color: #166916;
+}
+
+#name {
+	color: #333300;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#about {
+  overflow: auto;
+}
+
+#about img {
+  float: right;
+  margin-left: 20px;
+}
+
+div.site {
+	width: 80%;
+	margin: 0 auto;
+	display: table;
+	padding-bottom: 50px;
+}
+
+div.header {
+	text-align: left;
+	margin: 10px 0px 20px 0px;
+	z-index: 1000;
+}
+
+div.header a {
+	display: inline;
+	padding: 10px 0px 20px 10px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+div.footer {
+  border-top: solid 1px #CCC;
+  padding-top: 10px;
+}
+
+div.section {
+	width: 100%;
+	display: block;
+  margin-bottom: 30px;
+}
+
+div.item {
+	display: table-cell;
+	vertical-align: top;
+	padding-left: 10px;
+	margin: 0px;
+}

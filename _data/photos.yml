@@ -1,0 +1,33 @@
+albums:
+  -
+    title: Edinburgh
+    url:   'https://goo.gl/photos/euRLBSzwWkcnBc1X6'
+    cover: 'https://lh3.googleusercontent.com/LoTANUjxzCN1zXzSNF1id7BsodHtHRg6JjB0ToIQUnA=w454-h303-no'
+  -
+    title: Oxford (2013)
+    url:   'https://goo.gl/photos/6bzZHVt7DPH6QwGAA'
+    cover: 'https://lh3.googleusercontent.com/Z6KPOycVCWoXhSYPaWQNQvH8h0cdZhsm5Ya7xpJKqRk=w480-h320-no'
+  -
+    title: Isle of Skye (2012)
+    url:   'https://goo.gl/photos/D8XzNkYhhfvbpYLw7'
+    cover: 'https://lh3.googleusercontent.com/pQoH21rQp62kUnc2AbfS2OKw2fHwXdoDQAcC4cG6DOQ=w454-h303-no'
+  -
+    title: Malta (2012)
+    url:   'https://goo.gl/photos/WDN4XeF51MzWfsqo7'
+    cover: 'https://lh3.googleusercontent.com/jYdOwR7z8wRTWjKPx88_-cjKe4EORUDNHwP2Ft49yVs=w371-h278-no'
+  -
+    title: Perth, Scotland
+    url:   'https://goo.gl/photos/toh1diNitTUqV5qaA'
+    cover: 'https://lh3.googleusercontent.com/KwRJZoxhKbVT9EUnQ-k3QpuVVfTd26KVmqJo8g1UYCc=w558-h372-no'
+  -
+    title: Dundee, Scotland
+    url:   'https://goo.gl/photos/S7GjRn1iYG12LXeK6'
+    cover: 'https://lh3.googleusercontent.com/YmEO1vsSOnWkgQLDKBGW31Z8IR8OQOtsmV7mkBRNKSU=w454-h303-no'
+  -
+    title: Fringe Festival, Edinburgh (2012)
+    url  : 'https://goo.gl/photos/Q8PkBPfMqcNyYpAFA'
+    cover: 'https://lh3.googleusercontent.com/DL8RypZGN_matvTvZPsX6tMCHFyLEOYKwWCZq8AcWGA=w558-h372-no'
+  -
+    title: Toronto (2012)
+    url:   'https://goo.gl/photos/qCEwj1pxviWe22PAA'
+    cover: 'https://lh3.googleusercontent.com/5ZocwlA-B4rVqgVrSyZ7lw4hueZZPnnKJ43zGv3Z9Ho=w455-h303-no'

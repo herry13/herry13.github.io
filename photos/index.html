@@ -1,0 +1,12 @@
+---
+title: The color of my life.
+---
+
+<div id="photos">
+  {% for album in site.data.photos.albums %}
+  <p>
+    <h3>{{ album.title }}</h3>
+    <a href="{{ album.url }}"><img width="400" src="{{ album.cover }}" /></a>
+  </p>
+  {% endfor %}
+</div>

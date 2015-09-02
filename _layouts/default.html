@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-uk">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+  <meta name="author" content="{{ site.data.profile.name }}" />
+  
+  <!-- Homepage CSS -->
+  <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+
+<div class="site">
+  <div class="header">
+    <a href="/">home</a>
+    <a href="/photos">photos</a>
+    <a href="/about">about</a>
+  </div>
+
+  {{ content }}
+
+  <div class="footer">
+    <div class="content">
+      <p>
+        {{ site.data.profile.name }}
+        <br />
+        {{ site.data.profile.email.home }}
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+        <a href="http://github.com/{{ site.data.profile.github }}">github.com/{{ site.data.profile.github }}</a><br />
+        <a href="http://linkedin.com/in/{{ site.data.profile.linkedin }}">linkedin.com/in/{{ site.data.profile.linkedin }}</a><br />
+        <a href="http://twitter.com/{{ site.data.profile.twitter }}">twitter.com/{{ site.data.profile.twitter }}</a><br />
+        <a href="{{ site.data.profile.googlescholar }}">google scholar</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+
+</body>
+</html>

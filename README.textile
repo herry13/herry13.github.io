@@ -1,0 +1,3 @@
+h1. This is the data for my blog.
+
+It requires "Jekyll":http://github.com/mojombo/jekyll to transform it into a static site.
