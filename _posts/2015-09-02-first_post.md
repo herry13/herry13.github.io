@@ -1,5 +1,6 @@
 ---
 title:    First Post
+layout:   post
 category: test
 tags:
   - first

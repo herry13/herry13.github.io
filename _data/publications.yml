@@ -7,13 +7,13 @@ papers:
     selected: true
     links:
       -
-        title: Springer
+        title: springer
         url: 'http://link.springer.com/article/10.1007/s10922-015-9351-y#'
       -
-        title: PDF
+        title: pdf
         url: 'http://homepages.inf.ed.ac.uk/dcspaul/homepage/live/pdf/sfsemantics.pdf'
       -
-        title: Bib
+        title: bib
         url: 'http://homepages.inf.ed.ac.uk/dcspaul/homepage/live/bib/sfsemantics.bib'
   -
     title: Automated Planning for Cloud Service Configurations
@@ -23,7 +23,7 @@ papers:
     selected: true
     links:
       -
-        title: PDF
+        title: pdf
         url: 'http://homepages.inf.ed.ac.uk/s0978621/herry-thesis.pdf'
   -
     title: 'Multi-agent virtual machine management using the Lightweight Coordination Calculus'
@@ -33,10 +33,10 @@ papers:
     selected: true
     links:
       -
-        title: PDF
+        title: pdf
         url: 'http://homepages.inf.ed.ac.uk/dcspaul/homepage/live/pdf/tcci-2013.pdf'
       -
-        title: Bib
+        title: bib
         url: 'http://homepages.inf.ed.ac.uk/dcspaul/homepage/live/bib/tcci-2013.bib'
   -
     title: Automated Planning for Configuration Changes
@@ -46,8 +46,8 @@ papers:
     selected: true
     links:
       -
-        title: PDF
+        title: pdf
         url: 'http://homepages.inf.ed.ac.uk/dcspaul/homepage/live/pdf/Lisa_11.pdf'
       -
-        title: Bib
+        title: bib
         url: 'http://homepages.inf.ed.ac.uk/s0978621/lisa2011.bib'

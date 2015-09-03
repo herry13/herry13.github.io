@@ -1,8 +1,9 @@
 body {
 	color: #111111;
 	background-color: #ADD6C2;
-	font-family: verdana, sans-serif;
-	font-size: 13px;
+	/*font-family: verdana, sans-serif;*/
+  font: normal normal normal 14px/1 FontAwesome;
+	font-size: 14px;
 	text-align: left;
 	line-height: 140%;
 	margin: 0px;
@@ -55,11 +56,11 @@ h3 {
 }
 i {
 	color: #333300;
-	font-size: 13px;
+	font-size: 14px;
 }
 b {
   color: #166916;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .title {
@@ -80,6 +81,65 @@ b {
 #about img {
   float: right;
   margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.comment {
+  margin: 10px 0px 10px 0px;
+  display: block;
+}
+.comment li {
+  border-top: 1px solid #DDDDDD;
+  display: block;
+  margin-bottom: 10px;
+}
+.comment time {
+  display: block;
+  color: #666666;
+}
+.commenter {
+  display: block;
+  color: #166916;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.comment li div {
+  padding: 5px 10px 5px 10px;
+}
+
+#comment-form {
+  display: block;
+  width: 500px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 5px 30px 20px 20px;
+	background-color: #EEE;
+  border-radius: 5px;
+}
+#comment-form form label {
+  width: 100%;
+  display: block;
+}
+#comment-form form input, #comment-form form textarea {
+  width: 100%;
+  padding: 4px 6px 4px 6px;
+  font-size: 14px;
+  border: 1px solid #CCCCCC;
+  margin: 0px 0px 5px 0px;
+  border-radius: 5px;
+}
+#comment-form form textarea {
+  height: 150px;
+  resize: none;
+}
+#comment-form form input[type=submit] {
+  width: 515px;
+  padding: 8px;
+  margin: 0px;
+  background-color: #333333;
+  color: #FFFFFF;
 }
 
 div.site {

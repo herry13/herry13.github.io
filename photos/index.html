@@ -1,11 +1,11 @@
 ---
-title: The color of my life.
+title: The color of my journey.
 ---
 
 <div id="photos">
   {% for album in site.data.photos.albums %}
   <p>
-    <h3>{{ album.title }}</h3>
+    <h3><i class="fa fa-th-large">&nbsp;</i>{{ album.title }}</h3>
     <a href="{{ album.url }}"><img width="400" src="{{ album.cover }}" /></a>
   </p>
   {% endfor %}
