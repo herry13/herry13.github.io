@@ -4,4 +4,4 @@ build: comments
 	jekyll build
 
 comments:
-	./comments.rb > _data/comments.json
+	./scripts/comments.rb > _data/comments.json
