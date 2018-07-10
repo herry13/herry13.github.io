@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Dr. Herry</title>
+    <link>https://herry13.github.io/blog/</link>
+    <description>Recent content in Blog on Dr. Herry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Tue, 10 Jul 2018 22:36:34 +0100</lastBuildDate>
+    
+	<atom:link href="https://herry13.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FruitOS</title>
+      <link>https://herry13.github.io/blog/fruitos/</link>
+      <pubDate>Tue, 10 Jul 2018 22:36:34 +0100</pubDate>
+      
+      <guid>https://herry13.github.io/blog/fruitos/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
