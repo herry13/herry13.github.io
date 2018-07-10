@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Herry</title>
+    <link>https://herry13.github.io/</link>
+    <description>Recent content on Dr. Herry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Tue, 10 Jul 2018 22:48:43 +0100</lastBuildDate>
+    
+	<atom:link href="https://herry13.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publications</title>
+      <link>https://herry13.github.io/publications/</link>
+      <pubDate>Tue, 10 Jul 2018 22:48:43 +0100</pubDate>
+      
+      <guid>https://herry13.github.io/publications/</guid>
+      <description>2018 S J Johnston, P J Basford, C S Perkins, H Herry, F P Tso, D Pezaros, R D Mullins, E Yoneki, S J Cox and J Singer, Commodity Single Board Computer Clusters and Their Applications, Future Generation Computer Systems, 2018 [doi]
+J Singer, H Herry, P J Basford, W Hajji, C S Perkins, F P Tso, D Pezaros, R D Mullins, E Yoneki, S J Cox and S J Johnston, Next Generation Single Board Clusters, Proceedings of the IEEE/IFIP Network Operations and Management Symposium, Taipei, Taiwan, April 2018 [pdf]</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://herry13.github.io/about/</link>
+      <pubDate>Tue, 10 Jul 2018 22:42:07 +0100</pubDate>
+      
+      <guid>https://herry13.github.io/about/</guid>
+      <description>I am a Research Associate at School of Computing Science, University of Glasgow, working on Federated RaspberryPi &amp;mu;-Infrastructure Testbed (FR&amp;mu;IT).
+My works are on Edge Compute and Distributed System.
+I received Ph.D. (2014) from the University of Edinburgh, B.Sc. (2002) and M.Sc. (2004) from Universitas Indonesia.</description>
+    </item>
+    
+    <item>
+      <title>FruitOS</title>
+      <link>https://herry13.github.io/blog/fruitos/</link>
+      <pubDate>Tue, 10 Jul 2018 22:36:34 +0100</pubDate>
+      
+      <guid>https://herry13.github.io/blog/fruitos/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
