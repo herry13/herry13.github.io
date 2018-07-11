@@ -12,3 +12,9 @@ to support Edge Compute or the Internet of Things applications.
 
 I received Ph.D. (2014) from the University of Edinburgh,
 B.Sc. (2002) and M.Sc. (2004) from Universitas Indonesia.
+I spent about 1-year (2003-2004) as visiting research student
+in Tokyo Institute of Technology.
+
+I am a football fan, also like to play table tennis, chess,
+badminton, and in-door football.
+Sometimes I take various photos with my Nikon camera.
