@@ -6,9 +6,9 @@ draft: false
 
 I am a Research Associate at School of Computing Science,
 University of Glasgow, working on [Federated RaspberryPi &mu;-Infrastructure
-Testbed (FR&mu;IT)](https://fruit-testbed.org).
-
-My works are on Edge Compute and Distributed System.
+Testbed (FR&mu;IT)](https://fruit-testbed.org) project.
+My works focus on solving problems on managing a large scale distributed system
+to support Edge Compute or the Internet of Things applications.
 
 I received Ph.D. (2014) from the University of Edinburgh,
 B.Sc. (2002) and M.Sc. (2004) from Universitas Indonesia.

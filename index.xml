@@ -27,18 +27,18 @@ J Singer, H Herry, P J Basford, W Hajji, C S Perkins, F P Tso, D Pezaros, R D Mu
       <pubDate>Tue, 10 Jul 2018 22:42:07 +0100</pubDate>
       
       <guid>https://herry13.github.io/about/</guid>
-      <description>I am a Research Associate at School of Computing Science, University of Glasgow, working on Federated RaspberryPi &amp;mu;-Infrastructure Testbed (FR&amp;mu;IT).
-My works are on Edge Compute and Distributed System.
+      <description>I am a Research Associate at School of Computing Science, University of Glasgow, working on Federated RaspberryPi &amp;mu;-Infrastructure Testbed (FR&amp;mu;IT) project. My works focus on solving problems on managing a large scale distributed system to support Edge Compute or the Internet of Things applications.
 I received Ph.D. (2014) from the University of Edinburgh, B.Sc. (2002) and M.Sc. (2004) from Universitas Indonesia.</description>
     </item>
     
     <item>
-      <title>FruitOS</title>
-      <link>https://herry13.github.io/blog/fruitos/</link>
+      <title>Why we need a 64-bit OS for Raspberry Pi?</title>
+      <link>https://herry13.github.io/blog/why-we-need-a-64-bit-os-for-raspberry-pi/</link>
       <pubDate>Tue, 10 Jul 2018 22:36:34 +0100</pubDate>
       
-      <guid>https://herry13.github.io/blog/fruitos/</guid>
-      <description></description>
+      <guid>https://herry13.github.io/blog/why-we-need-a-64-bit-os-for-raspberry-pi/</guid>
+      <description>More than 18 millions of Raspberry Pis have been sold &amp;lsquo;til today. This small, cheap computer has been popular to hobbyist or students as platform to deploy sensor applications, or to create a micro data center.
+Although it looks powerless comparing to standard desktop computer or laptop, but the latest models (Raspberry Pi 3 and 3B+) are capable of executing ARM 64-bit instructions since their processors are based on ARMv8 architecture.</description>
     </item>
     
   </channel>

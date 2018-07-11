@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Herry">
+<meta name="description" content="More than 18 millions of Raspberry Pis have been sold &lsquo;til today. This small, cheap computer has been popular to hobbyist or students as platform to deploy sensor applications, or to create a micro data center.
+Although it looks powerless comparing to standard desktop computer or laptop, but the latest models (Raspberry Pi 3 and 3B&#43;) are capable of executing ARM 64-bit instructions since their processors are based on ARMv8 architecture.">
+
+<meta property="og:title" content="Why we need a 64-bit OS for Raspberry Pi?" />
+<meta property="og:description" content="More than 18 millions of Raspberry Pis have been sold &lsquo;til today. This small, cheap computer has been popular to hobbyist or students as platform to deploy sensor applications, or to create a micro data center.
+Although it looks powerless comparing to standard desktop computer or laptop, but the latest models (Raspberry Pi 3 and 3B&#43;) are capable of executing ARM 64-bit instructions since their processors are based on ARMv8 architecture." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://herry13.github.io/blog/why-we-need-a-64-bit-os-for-raspberry-pi/" />
+
+
+
+<meta property="article:published_time" content="2018-07-10T22:36:34&#43;01:00"/>
+
+<meta property="article:modified_time" content="2018-07-10T22:36:34&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+     Why we need a 64-bit OS for Raspberry Pi? 
+
+</title>
+<link rel="canonical" href="https://herry13.github.io/blog/why-we-need-a-64-bit-os-for-raspberry-pi/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="https://herry13.github.io/css/reset.css?t=2018-07-11%2002%3a57%3a48.030976256%20%2b0100%20BST%20m%3d%2b0.046897486">
+    <link rel="stylesheet" href="https://herry13.github.io/css/pygments.css?t=2018-07-11%2002%3a57%3a48.030976256%20%2b0100%20BST%20m%3d%2b0.046897486">
+    <link rel="stylesheet" href="https://herry13.github.io/css/main.css?t=2018-07-11%2002%3a57%3a48.030976256%20%2b0100%20BST%20m%3d%2b0.046897486">
+    
+        <link rel="stylesheet" href="https://herry13.github.io/css/override.css?t=2018-07-11%2002%3a57%3a48.030976256%20%2b0100%20BST%20m%3d%2b0.046897486">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://herry13.github.io/img/leaf.ico"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                
+                <a href="https://herry13.github.io/"><img class="avatar" src="https://herry13.github.io/img/profile.jpg" srcset="https://herry13.github.io/img/profile.jpg 1x"></a>
+            
+            <a href="https://herry13.github.io/"><div class="name">Herry</div></a>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-blog"><a href="https://herry13.github.io/blog/"><span>Blog</span></a></li>
+                    
+                        <li class="nav-publications"><a href="https://herry13.github.io/publications/"><span>Publications</span></a></li>
+                    
+                        <li class="nav-about"><a href="https://herry13.github.io/about/"><span>About</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+        
+            <a href="//github.com/herry13" target="_blank" rel="noopener"><img class="icon" src="https://herry13.github.io/img/github.svg" alt="github" /></a>
+        
+
+        
+
+        
+            <a href="//twitter.com/hhherry" target="_blank" rel="noopener"><img class="icon" src="https://herry13.github.io/img/twitter.svg" alt="twitter" /></a>
+        
+
+	
+
+        
+
+        
+
+        
+            <a href="//uk.linkedin.com/in/herry13" target="_blank" rel="noopener"><img class="icon" src="https://herry13.github.io/img/linkedin.svg" alt="linkedin" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="mailto:h@herry.co"><img class="icon" src="https://herry13.github.io/img/email.svg" alt="email" /></a>
+        
+
+        
+
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Why we need a 64-bit OS for Raspberry Pi?
+
+</div>
+
+                    <div class="initials"><a href="https://herry13.github.io/"></a></div>
+                </div>
+                <div class="meta">
+                    
+                    <div class="date" title='Tue Jul 10 2018 22:36:34 BST'>Jul 10, 2018</div>
+                    
+                    
+		    <div class="reading-time"><div class="middot"></div>2 minutes read</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                <p>More than 18 millions of Raspberry Pis have been sold &lsquo;til today.
+This small, cheap computer has been popular to hobbyist or students as platform
+to deploy sensor applications, or to create a micro data center.</p>
+
+<p>Although it looks <em>powerless</em> comparing to standard desktop computer or
+laptop, but the latest models (Raspberry Pi 3 and 3B+) are capable of executing
+ARM 64-bit instructions since their processors are based on ARMv8 architecture.
+In terms of memory, there is no advantage of running a 64-bit application on
+these models since they only have 1GB of RAM.
+Fortunately, there are other things that we can get.</p>
+
+<p>First, processing the same amount of data using 64-bit instructions are faster
+than 32-bit ones, but depending on how good the developer exploits the
+instructions, and how mature the compiler optimises the codes.
+There are several good old articles (such as <a href="http://nominolo.blogspot.com/2012/07/arms-new-64-bit-instruction-set.html">here</a>
+and <a href="https://lwn.net/Articles/506148/">here</a>) explaining why ARM 64-bit
+instruction are better.</p>
+
+<p>Second, Cloud providers are already moving from x86 to ARM 64-bit servers,
+mainly because the later consumes less power, reducing the operational cost.
+Thus it is not a surprise if the price of ARM-based VMs are cheaper than x86.</p>
+
+<p>To exploit this trend, e.g. reducing our OPEX by using ARM-based VMs, we need
+to start porting existing codes or developing new applications for ARM 64-bit
+architecture.
+Unfortunately, there is a road-block: <em>most (if not all) of developers&rsquo;
+machines are using x86 processors</em>.
+One of possible solutions would be using one or more Raspberry Pis with 64-bit
+OS as a testbed for our applications.
+This is possible because the hardware is very cheap to buy, and the OS is
+totally free (it is Linux anyway).</p>
+
+<p><a href="https://en.opensuse.org/HCL:Raspberry_Pi3">OpenSUSE</a> is arguably the first
+64-bit operating system for Raspberry Pi.
+Alternatives are <a href="https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3">ArchLinux</a>,
+<a href="http://alpinelinux.org">Alpine Linux</a>,
+and <a href="https://fruit-testbed.org/fruitos">FruitOS</a>.</p>
+
+                <br>
+                
+                <p class="back-to-posts"><a href="https://herry13.github.io/blog">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cocoaexamplesite" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-123-45', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+
+</body>
+</html>
+
