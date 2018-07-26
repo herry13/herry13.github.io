@@ -41,3 +41,16 @@ totally free (it is Linux anyway).
 Alternatives are [ArchLinux](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3),
 [Alpine Linux](http://alpinelinux.org),
 and [FruitOS](https://fruit-testbed.org/fruitos).
+
+- [High-Performance Linkpack](http://www.netlib.org/benchmark/hpl/) (HPL) benchmark
+- Follow the instructions in [Building HPL and ATLAS for the Raspberry Pi](https://computenodes.net/2018/06/28/building-hpl-an-atlas-for-the-raspberry-pi/)
+  to build HPL
+- Results:
+  - FruitOS 32-bit: 3.498 GFLOPS
+  - FruitOS 64-bit: 1.727 GFLOPS
+  - Alpine 32-bit: ?
+  - Alpine 64-bit: ?
+  - Raspbian 32-bit: ?
+  - OpenSUSE 64-bit: ?
+
+[updated soon]
